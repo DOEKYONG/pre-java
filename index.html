@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>로그인</title>
+
+    <style>
+      .main_wrap {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        height: 100vh;
+        flex-direction: column;
+      }
+      .header {
+        background-color: aquamarine;
+        width: 40%;
+      }
+
+      .loginid {
+        height: 50px;
+      }
+      .login_wrap {
+        width: 40%;
+        border: 1px solid #eeeeee;
+        height: 300px;
+        text-align: center;
+      }
+      .login_wrap a {
+        text-decoration: none;
+        color: skyblue;
+      }
+      .login_wrap a:hover {
+        color: aquamarine;
+      }
+      .login {
+        width: 80%;
+        display: flex;
+        flex-direction: column;
+        margin: 0 auto;
+      }
+      .login input {
+        border: none;
+        border-bottom: 1px solid #eeeeee;
+      }
+      .btn {
+        width: 30%;
+        height: 40px;
+        margin: 0 auto;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        background-color: skyblue;
+        color: white;
+      }
+      .btn:hover {
+        width: 50%;
+        height: 60px;
+        color: black;
+        background-color: aquamarine;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="main_wrap">
+      <div class="header">
+        <h1 style="text-align: center">로그인해주세요</h1>
+      </div>
+
+      <div class="login_wrap">
+        <div class="login">
+          <input type="text" class="loginid" />
+          <input type="password" class="loginid" />
+          <button class="btn">LOGIN</button>
+        </div>
+
+        <a href="">forgotpassword?</a>
+      </div>
+    </div>
+  </body>
+</html>
